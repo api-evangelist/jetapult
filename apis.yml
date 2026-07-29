@@ -1,7 +1,24 @@
 aid: jetapult
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jetapult.png
 name: Jetapult
-description: 'Jetapult is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Jetapult is a capital and support firm focused on scaling mobile game
+  studios, combining operator-first funding with hands-on systems for monetization,
+  user acquisition, market expansion, and operational efficiency. Its GamePac AI toolset
+  helps indie studios create, grow, and monetize their games. Jetapult is backed by
+  Accel and operates as a partner-and-capital platform for gaming studios such as Holy
+  Cow Studio and UMX Studio. This profile is maintained in the API Evangelist network;
+  Jetapult does not currently publish a public developer API, documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/jetapult/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Game Studios
+- Monetization
+- Artificial Intelligence
+- Venture Capital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jetapult-domain-security.yml
 - type: Website
-  url: https://www.jetapult.me/
+  url: https://www.jetapult.co/
+- type: About
+  url: https://www.jetapult.co/
+- type: Product
+  name: GamePac AI
+  url: https://jetapult.co/gamepac-ai/
+- type: Support
+  url: https://jetapult.co/contact/
+- type: Careers
+  url: https://jetapult.co/team-and-careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/jetapult/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
